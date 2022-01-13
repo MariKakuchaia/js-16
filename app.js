@@ -2,9 +2,9 @@
 // დააბრუნებს true -ს თუ რიცხვი არის კენტი ან false -ს თუ რიცხვი არის ლუწი.
 const number = (x) => {
     if(x % 2==0){
-        return true;
-    }else{
         return false;
+    }else{
+        return true;
     }
 }
 console.log(number(4));
@@ -25,7 +25,7 @@ const getCurrencySymbolFromCode =(currency)=>{
         return "ლ"
     }
     else{
-        return getCurrencySymbolFromCode;
+        return currency;
     }
 }
 console.log(getCurrencySymbolFromCode("GEL"));
